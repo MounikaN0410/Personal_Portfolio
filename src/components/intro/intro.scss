@@ -1,32 +1,73 @@
-.intro{
+.intro {
     background-color: white;
-    display:flex;
-
-    .left{
-        flex:0.5;
-
-        .imgContainer{
-            margin-top: 20px;
-            margin-left: 20px;
-            width:500px;
-            height:500px;
-            border-radius:50%;
-            display:flex;
-            align-items:flex-end;
-            justify-content: center;
-
-
-            img{
-                height:100%;
-                width:100%;
-                overflow:hidden;
-            }
+    display: flex;
+  
+    .left {
+      flex: 0.5;
+  
+      .imgContainer {
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+  
+        img {
+          height: 100%;
+          width: 100%;
+          overflow: hidden;
         }
-        
+      }
     }
-
-    .right{
-        flex:0.5;
-
+  
+    .right {
+      flex: 0.5;
+      position: relative;
+  
+      .wrapper {
+        width: 100%;
+        height: 100%;
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+  
+        .h1 {
+          font-size: 60px;
+          margin: 10px 0;
+        }
+  
+        .h2 {
+          font-size: 35px;
+          margin: 10px 0;
+        }
+  
+        .h3 {
+          color: crimson;
+          font-size: 30px;
+          margin: 10px 0;
+        }
+      }
+  
+      a {
+        position: absolute;
+        bottom: 10px;
+        left: 10%;
+  
+        img {
+          width: 30px;
+          animation: arrowBlink 2s infinite;
+        }
+      }
+  
+      @keyframes arrowBlink {
+        100% {
+          opacity: 0; /* Changed opacity to 0 assuming it was meant to be that way */
+        }
+      }
     }
-}
+  }
+  
