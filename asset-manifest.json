@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.a6e690be.css",
+    "main.js": "/react-gh-pages/static/js/main.d299b9c6.js",
+    "static/media/Mounika_Resume.pdf": "/react-gh-pages/static/media/Mounika_Resume.1f55a5b88c823eb3f164.pdf",
+    "index.html": "/react-gh-pages/index.html",
+    "main.a6e690be.css.map": "/react-gh-pages/static/css/main.a6e690be.css.map",
+    "main.d299b9c6.js.map": "/react-gh-pages/static/js/main.d299b9c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6e690be.css",
+    "static/js/main.d299b9c6.js"
+  ]
+}
