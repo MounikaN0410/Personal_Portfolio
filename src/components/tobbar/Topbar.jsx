@@ -1,8 +1,9 @@
 import React from 'react'
 import './topbar.scss'
-import {Person,Mail} from '@material-ui/icons'
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { IoPersonSharp } from "react-icons/io5";
 export default function Topbar({menuOpen,setMenuOpen}) {
   return (
     <div className={"topbar " + (menuOpen ? 'active' : '')}>
@@ -11,20 +12,20 @@ export default function Topbar({menuOpen,setMenuOpen}) {
             <div className='left'>
                 <a href="#intro" className="logo">Mounika Nadimpalli</a>
                 <div className='itemContainer'>
-                    <Person/>
+                <IoPersonSharp />
                     <span>+1 812 778 5193</span>
                 </div>
                 <div className='itemContainer'>
-                    <Mail/>
+                <MdEmail/>
                     <span>nmounika0410@gmail.com</span>
                 </div>
                 <div className='itemContainer'>
-                    <LinkedInIcon onClick={() => window.open('https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile', '_blank')} />
+                    <FaLinkedin onClick={() => window.open('https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile', '_blank')} />
 
                     {/* <span>LinkedIn</span> */}
                 </div>
                 <div className='itemContainer'>
-                    <GitHubIcon onClick={() => window.open('https://github.com/MounikaN0410', '_blank')} />
+                    <AiFillGithub onClick={() => window.open('https://github.com/MounikaN0410', '_blank')} />
 
                     {/* <span>Mounika</span> */}
                 </div>
