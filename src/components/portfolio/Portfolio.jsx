@@ -77,7 +77,7 @@ export default function Portfolio() {
         
         date="Nov 2021 – Feb 2022"
         
-        description={["Implemented RESTful APIs using Python, facilitating seamless communication between backend services and frontend solutions. Developed and deployed web applications, leveraging React and its frameworks for intuitive user interfaces.","Implemented role-based access control, allowing different team members to view and update project data based on their roles and permissions.","Implemented modular and reusable React components, reducing code duplication by 30\% and enhancing code maintainability, resulting in a 20% increase in development efficiency."]}
+        description={["Implemented RESTful APIs using Python, facilitating seamless communication between backend services and frontend solutions. Developed and deployed web applications, leveraging React and its frameworks for intuitive user interfaces.","Implemented role-based access control, allowing different team members to view and update project data based on their roles and permissions.","Implemented modular and reusable React components, reducing code duplication by 30% and enhancing code maintainability, resulting in a 20% increase in development efficiency."]}
       />
 
       <WorkExperienceCard
@@ -85,7 +85,7 @@ export default function Portfolio() {
         company="INMOVIDU Tech, Apsis Solutions"
         
         date="July 2020 – September 2020"
-        description={["Extracted meaningful insights and identified patterns from raw data by engaging in data wrangling and conducting both qualitative and quantitative analyses.","Achieved 19\% improvement in data quality and accuracy through SQL data transformation. Reduced data processing time and increased pipeline efficiency by 13% through optimization efforts.", "Created interactive visual reports using Tableau and Power BI, resulting in a 29%. improvement in data accessibility for non-technical team members. Collaborated closely with data collection teams, playing a key role in web data scraping, cleaning, and pre-processing to enhance analytics capabilities."]}
+        description={["Extracted meaningful insights and identified patterns from raw data by engaging in data wrangling and conducting both qualitative and quantitative analyses.","Achieved 19% improvement in data quality and accuracy through SQL data transformation. Reduced data processing time and increased pipeline efficiency by 13% through optimization efforts.", "Created interactive visual reports using Tableau and Power BI, resulting in a 29%. improvement in data accessibility for non-technical team members. Collaborated closely with data collection teams, playing a key role in web data scraping, cleaning, and pre-processing to enhance analytics capabilities."]}
       />
 
 
