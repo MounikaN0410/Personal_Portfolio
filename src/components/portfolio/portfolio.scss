@@ -1,0 +1,117 @@
+@import '../../global.scss';
+
+
+.portfolio{
+    
+  background-color: $mainColor;
+    
+    display:flex;
+    flex-direction:row;
+    
+
+    .left {
+        
+        flex: 0.5;
+        
+        h1{
+          color:white;
+
+          margin-top: 150px;
+          margin-bottom:30px;
+          font-size:40px;
+          display:flex;
+          justify-content:center;
+          
+      }
+      
+        .skills {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr); /* Display 2 columns */
+          gap: 20px;
+        }
+      
+        .category {
+          background-color: #f0f0f0;
+          padding: 15px;
+          border-radius: 5px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          margin-bottom: 20px; /* Add margin between categories */
+        }
+      
+        .category-title {
+          font-weight: bold;
+          margin-bottom: 10px;
+          display:flex;
+          
+          justify-content:center;
+          align-items:center;
+        }
+      
+        .skill-list {
+
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: grid;
+          grid-template-columns: repeat(3, 2fr); /* Arrange skills in a 2x2 grid */
+          gap: 10px;
+        }
+      
+        .skill {
+          margin-bottom: 5px;
+        }
+      }
+      
+
+    .right{
+        flex: 0.5;
+        
+        
+        align-items: center;
+        justify-content: space-around;
+        
+
+
+        h1{
+            color:white;
+            margin-top:20px;
+            display:flex;
+            align-items:center;
+            justify-content: center;
+            font-size:40px;
+            margin-bottom: 30px;
+        }
+
+        .cardContainer{
+          display:flex;
+          flex-direction: column;
+          align-items:center;
+          justify-content: center;
+
+        }
+    
+        ul{
+            margin:10px;
+            padding:0;
+            list-style:none;
+    
+            li{
+                font-size:12px;
+                margin:50px;
+                padding:7px;
+                border-radius:10px;
+                cursor:pointer;
+    
+                &.active{
+                    background-color:$mainColor;
+                    color:white;
+    
+                }
+    
+            }
+        }
+
+    }
+
+    
+}
