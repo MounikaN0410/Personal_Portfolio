@@ -11,7 +11,7 @@ export default function Works() {
       icon:'https://files.realpython.com/media/Python-driven-Web-Applications_Watermarked.c5692cb81de8.jpg',
       title: "Venue Finder",
       tech:'React.js,Flask,My SQL,Git,Javascript',
-      desc:" Spearheaded the development of a user-friendly web application catering to customized venue/banquet hall booking with additional features: Space bookmarking,Session management,payments. Achieved a 20\% reduction in API response times through optimized query execution and data caching strategies, demonstrating proficiency in both frontend and backend technologies.",
+      desc:" Spearheaded the development of a user-friendly web application catering to customized venue/banquet hall booking with additional features: Space bookmarking,Session management,payments. Achieved a 20% reduction in API response times through optimized query execution and data caching strategies, demonstrating proficiency in both frontend and backend technologies.",
       img:
         "https://www.interviewbit.com/blog/wp-content/uploads/2021/11/Software-Engineer-Skills.png",
     },
