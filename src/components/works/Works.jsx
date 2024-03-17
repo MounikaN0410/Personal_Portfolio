@@ -8,24 +8,28 @@ export default function Works() {
       id: "1",
       // icon:"react_portfolio/public/assets/Portfolio_Images/mobile.png",
       // icon: "./assets/mobile.png",
+      icon:'https://files.realpython.com/media/Python-driven-Web-Applications_Watermarked.c5692cb81de8.jpg',
       title: "Venue Finder",
-      desc:"Led the development of a user-friendly web application for customized venue/banquet hall recommendations, integrating React and Flask for frontend and backend functionality. Implemented features like space bookmarking, session management, and payment gateway processing while optimizing data storage with MySQL.",
+      tech:'React.js,Flask,My SQL,Git,Javascript',
+      desc:" Spearheaded the development of a user-friendly web application catering to customized venue/banquet hall booking with additional features: Space bookmarking,Session management,payments. Achieved a 20\% reduction in API response times through optimized query execution and data caching strategies, demonstrating proficiency in both frontend and backend technologies.",
       img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+        "https://www.interviewbit.com/blog/wp-content/uploads/2021/11/Software-Engineer-Skills.png",
     },
     {
       id: "2",
-      // icon: "./assets/globe.png",
+      icon: "https://learnerbits.com/wp-content/uploads/2023/10/data-analysis.webp",
       title: "Financial Analysis of Artist's in New York",
+      tech:'Tableau,Python,Web Scraping,Data Preprocessing',
       desc:
         "Led a data collection and visualization initiative for the Financial State of New York artists, creating a sophisticated dashboard with a stability index based on multiple attributes and Implemented action filters and parameters for dynamic financial exploration.",
       img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+      "https://img-c.udemycdn.com/course/750x422/2095410_943c_2.jpg",
     },
     {
       id: "3",
-      // icon: "./assets/writing.png",
+      icon: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230318225814/ML-Tutorial.jpg",
       title: "Accident Severity Prediction",
+      tech:'Python,Machine Learning,Data Preprocessing,Streamlit',
       desc:
       "Developed predictive models to enhance safety measures by accurately predicting crash severity, leveraging statistical calculations, data analysis expressions (DAX), and machine learning techniques (XGBoost, RF). Achieved 90.1% accuracy through rigorous evaluation and hyperparameter fine-tuning.",
 
@@ -35,7 +39,7 @@ export default function Works() {
 
 
       img:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fiverr.com%2Fjeetkpal%2Fdo-data-analysis-dashboard-ml-assignment-and-project-using-python-tableau&psig=AOvVaw0WRH0l3KIK8BBBQmGGa781&ust=1709524268004000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLjPlK2Y14QDFQAAAAAdAAAAABAa",
+        "https://miro.medium.com/v2/resize:fit:1200/1*29oTLzeQn5MIQjnX6tqauw.jpeg",
     },
   ];
 
@@ -47,7 +51,7 @@ export default function Works() {
   
   return (
     <div className="works" id="works">
-      {/* <h1 style={{color:'white'}}>Academic Projects</h1> */}
+      <h1 style={{color:'white',position:'absolute',marginTop: '-550px',fontSize:'40px'}}>Academic Projects</h1>
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
@@ -57,17 +61,18 @@ export default function Works() {
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
-                  {/* <div className="imgContainer">
+                  <div className="imgContainer">
                     <img src={d.icon} alt="" />
-                  </div> */}
+                  </div>
                   <h2>{d.title}</h2>
+                  <i style={{color:'GrayText'}}>{d.tech}</i>
                   <p>{d.desc}</p>
                   {/* <span>Projects</span> */}
                 </div>
               </div>
               <div className="right">
                 <img
-                  src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
+                  src={d.img}
                   alt=""
                 />
               </div>
