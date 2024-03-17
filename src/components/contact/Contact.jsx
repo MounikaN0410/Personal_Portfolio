@@ -2,6 +2,7 @@ import React from 'react'
 import './contact.scss'
 import emailjs from '@emailjs/browser';
 import  { useRef } from 'react';
+// require("dotenv").config()
 // import { useState } from 'react';
 
 export default function Contact() {
